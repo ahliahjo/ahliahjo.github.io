@@ -1,5 +1,5 @@
 body {
-    background: #1a1a1a;
+    background: #0a5a73;
     color: white;
 }
 
@@ -32,7 +32,7 @@ body {
     border-radius: 50%;
 }
 
-.fa-twitter, .fa-github, .fa-envelope, .fa-linkedin-in {
+.fa-twitter, .fa-instagram, .fa-envelope, .fa-linkedin-in {
     color: white;
 }
 
