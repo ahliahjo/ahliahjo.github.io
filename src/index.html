@@ -1,7 +1,6 @@
 {% extends 'base.partial' %}
 
 {% block content %}
-{% include "media_modal.partial" %}
 {% include "projects_modal.partial" %}
 
 <!-- Single column, fullscreen, with a container suspended in the middle that has all the little formatting. -->
@@ -16,13 +15,13 @@
                             <source
                                     type="image/webp"
                                     sizes="200w, 300w, 600vw"
-                                    srcset="images/joe_and_hedy_200.webp 200w, images/joe_and_hedy_300.webp 300w, images/joe_and_hedy_450.webp 450w, images/joe_and_hedy.webp 600w"
+                                    srcset="images/image_200.webp 200w, images/image_300.webp 300w, images/image_450.webp 450w, images/image.webp 600w"
                             >
                             <img class="img-fluid bloom"
-                                 src="images/joe_and_hedy.png"
-                                 srcset="images/joe_and_hedy_200.png 200w, images/joe_and_hedy_300.png 300w, images/joe_and_hedy_450.png 450w, images/joe_and_hedy.png 600w"
+                                 src="images/ahliah.png"
+                                 srcset="images/image_200.png 200w, images/image_300.png 300w, images/image_450.png 450w, images/image.png 600w"
                                  sizes="200w, 300w, 600vw"
-                                 alt="A smiling Joe Kaufeld looking at the camera with a small black cat perched on his shoulder."
+                                 alt="A photo of Ahliah smiling while wearing an orange and turquoise silk scarf from the Library of Congress."
                                  width="600"
                             >
                         </picture>
@@ -77,16 +76,17 @@
                             <div class="col-0 col-md-2"></div>
                         </div>
                         <div class="row">
+							<div class="col-0 col-sm-3"></div>
                             <div class="col-sm-6">
                                 <div class="d-grid gap-2 mb-2">
                                     <button type="button" class="btn btn-secondary"
                                             data-bs-toggle="modal"
                                             data-bs-target="#projectModal">
-                                        Projects
+                                        Publications
                                     </button>
                                 </div>
-                                </div>
                             </div>
+							<div class="col-0 col-sm-3"></div>
                         </div>
                     </div>
                 </div>
